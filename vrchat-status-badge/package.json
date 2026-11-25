@@ -1,0 +1,14 @@
+{
+  "name": "com.local.overhead-status-badge",
+  "displayName": "Overhead Status Badge",
+  "version": "0.1.0",
+  "unity": "2022.3",
+  "description": "VRChat avatar overhead status badge with expression menu, synced StatusMode parameter, FX layer builder, and optional OSC sender.",
+  "author": {
+    "name": "local"
+  },
+  "vpmDependencies": {
+    "com.vrchat.avatars": ">=3.7.0"
+  }
+}
+

@@ -1,0 +1,26 @@
+{
+  "name": "machine-body",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "CLI-first control plane for a mixed Linux/Android cluster",
+  "scripts": {
+    "dev": "node --import tsx src/index.ts serve",
+    "serve": "node --import tsx src/index.ts serve",
+    "status": "node --import tsx src/index.ts status",
+    "nodes": "node --import tsx src/index.ts nodes",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.10.0",
+    "execa": "^9.5.2",
+    "fastify": "^5.2.1",
+    "yaml": "^2.7.0",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  }
+}

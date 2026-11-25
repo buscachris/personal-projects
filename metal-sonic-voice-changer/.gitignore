@@ -1,0 +1,7 @@
+builds/
+latest-apk.txt
+tests/*.wav
+tests/out/
+*.key
+*.keystore
+local.properties
