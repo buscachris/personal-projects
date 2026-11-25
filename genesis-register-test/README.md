@@ -1,3 +1,3 @@
 # Genesis register test
 
-An interactive 68000 register and controller exercise. From this directory, run `asl -q -U -i . regtest.asm` and `p2bin regtest.p regtest.bin` with the Macro Assembler AS tools.
+I wrote this controller-driven exercise to inspect Motorola 68000 registers on the Genesis. From this directory, I assemble it with `asl -q -U -i . regtest.asm` and convert the output with `p2bin regtest.p regtest.bin` using Macro Assembler AS.

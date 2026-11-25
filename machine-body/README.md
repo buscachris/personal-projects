@@ -1,6 +1,6 @@
 # machine-body
 
-CLI-first control plane scaffold for a mixed Linux and Android cluster.
+I use this command-line project to keep an inventory of my Linux and Android devices and inspect their status. My first goal is read-only monitoring.
 
 ## Goals
 

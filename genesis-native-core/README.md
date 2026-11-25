@@ -1,6 +1,6 @@
 # Native Runtime Scaffold
 
-This directory is the beginning of the `C` execution core for `SoniCkity`.
+I started this C execution core to move parts of my SoniCkity runtime out of Python. The interface gives the editor and debugger a stable way to call native code as I move individual components.
 
 Purpose:
 

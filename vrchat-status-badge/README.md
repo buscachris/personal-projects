@@ -1,6 +1,6 @@
 # VRChat Overhead Status Badge
 
-This is a Unity/VRChat avatar scaffold for a status label that floats above your head.
+I built an overhead status badge for a VRChat avatar. I use a synced expression parameter to switch the floating label between states such as Busy, AFK, and Recording.
 
 It uses VRChat-supported avatar systems:
 

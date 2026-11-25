@@ -1,9 +1,6 @@
 # Möbius Topology Demo for Sega Genesis / Mega Drive
 
-A self-contained Motorola 68000 ROM, built without SGDK, external libraries,
-or a parent game ROM. It is deliberately a first hardware-safe renderer: a
-32-sample, sprite-based wireframe ribbon, rather than a framebuffer or a
-software polygon renderer.
+I wrote a standalone Motorola 68000 ROM that draws a rotating Möbius strip on the Sega Genesis. I represent the strip with 32 samples and draw its wireframe using hardware sprites. The build uses no parent game ROM or external graphics library.
 
 ## Build
 

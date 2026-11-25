@@ -1,9 +1,6 @@
 # LLM from scratch
 
-This is an original, production-oriented PyTorch scaffold for the workflow
-described by the supplied reference: instruction data preparation, response
-masked supervised fine-tuning, checkpointing, and generation. It does not copy
-paywalled text or claim that a CPU smoke test is large-scale training.
+I use this small PyTorch language model to study the path from an instruction example to a generated response. I prepare the data, mask the prompt during fine-tuning, and save checkpoints that I can reload for generation.
 
 The default model is intentionally small. Increase `d_model`, `layers`,
 `heads`, `max_seq_len`, and the dataset size for real experiments. For serious

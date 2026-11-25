@@ -1,6 +1,6 @@
 # Metal Voice — Android phone prototype
 
-Metal Sonic voice for a phone-assisted standalone Quest / VRChat setup. Native Java, no third-party Android dependencies. Requires Android 8 or newer; built against API 35.
+I built this Android app so I can record a phrase on my phone and play it back in a Metal Sonic voice alongside my standalone Quest and VRChat setup. I wrote it in Java against API 35. It requires Android 8 or newer.
 
 ## Use
 

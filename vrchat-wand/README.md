@@ -1,6 +1,6 @@
 # Patriotic Wand Trail for VRChat
 
-This is a reusable Unity source package for a red-white-blue wand trail.
+I packaged my red, white, and blue wand trail as a reusable Unity source package for VRChat. I use the editor generator to build the wand as either a world pickup or an avatar prop.
 
 The generated wand uses built-in Unity and VRChat components only. The package's C# is editor-only generation code, so the uploaded wand does not depend on a custom runtime `MonoBehaviour`.
 

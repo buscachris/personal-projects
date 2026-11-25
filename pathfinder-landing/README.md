@@ -1,20 +1,9 @@
 # AI Engineer Pathfinder landing page
 
-Static, dependency-free landing page for the AI Engineer Pathfinder Toolkit.
+I built this static storefront for my AI Engineer Pathfinder toolkit. I put a sample terminal session next to the description so visitors can see how a skill recommendation looks before following the product link.
 
-Preview it locally from the repository root:
+![Storefront with the toolkit description and a sample skill recommendation](docs/landing-page.png)
 
-```bash
-python3 -m http.server 8787 --directory pathfinder-landing
-```
+## Local preview
 
-The CTA currently points at the saved Gumroad draft URL. It will not be a live
-checkout until the Gumroad product is published. Replace that URL in
-`index.html` if the storefront slug changes.
-
-The page makes no guaranteed-income claims and does not expose private lead
-history, account credentials, or local machine paths.
-
-The current product line is documented in the Pathfinder source repository:
-the core toolkit, the in-development Job Radar Companion, and the bounded
-Private AI Workflow Sprint service.
+From the collection root, run `python3 -m http.server 8787 --directory pathfinder-landing` and open `http://localhost:8787/`. The page content and product link are in [index.html](index.html).

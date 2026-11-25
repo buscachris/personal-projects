@@ -1,8 +1,6 @@
 # Cyber Shell
 
-Cyber Shell is a Sega Genesis / Mega Drive homebrew prototype built as a
-parody cyber-dungeon. It combines NetHack-style turn-by-turn grid play with a
-small original orbital-AI story and 68000-flavoured assembly hacking puzzles.
+I built Cyber Shell as a turn-based dungeon game for the Sega Genesis / Mega Drive. I paired an orbital-AI story with grid movement and puzzles about 68000 assembly.
 
 The current vertical slice includes:
 

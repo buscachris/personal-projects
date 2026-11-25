@@ -1,10 +1,6 @@
 # Metal Sonic screen reader
 
-Orca reads desktop controls, text, and navigation through Speech Dispatcher.
-The `fish-metal` output uses the existing Fish Audio Metal Sonic reference
-voice, then adds a light electronic effect. A clipboard watcher reads newly
-copied text through the same speech queue. Fast navigation cancels older
-utterances, and key echo and progress bar chatter are disabled.
+I use Orca and Speech Dispatcher to read desktop controls and text aloud on Linux. My `fish-metal` output uses an existing Fish Audio voice and adds a light electronic effect. I also route clipboard text through the same speech queue. Fast navigation cancels older utterances.
 
 For Fish speech, supply a voice reference you can use via the `FISH_VOICE_ID` environment variable and configure your own Fish Audio API key. The Fish Speech Dispatcher module must inherit the environment setting. With Orca and the speech output configured, run `./start.sh` in this directory.
 
